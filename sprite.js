@@ -1,3 +1,4 @@
+//Variable names for all of the images
 var 
 
 s_bird,
@@ -25,6 +26,8 @@ Sprite.prototype.draw = function(ctx, x, y) {
 		x, y, this.width, this.height);
 };
 
+
+//Load sprites from sprites.js
 function initSprites(img) {
 
 	s_bird = [
